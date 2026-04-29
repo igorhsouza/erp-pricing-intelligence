@@ -1,0 +1,67 @@
+{
+  "name": "ERP Pricing Intelligence",
+  "nodes": [
+    {
+      "name": "Google Drive Trigger",
+      "parameters": {
+        "folderToWatch": {
+          "value": "YOUR_FOLDER_ID"
+        }
+      },
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Google Drive"
+        }
+      }
+    },
+    {
+      "name": "Baixar Conteúdo",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Google Drive"
+        }
+      }
+    },
+    {
+      "name": "Enviar Relatório",
+      "parameters": {
+        "sendTo": "your-email@example.com"
+      },
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "name": "Enviar Relatório Backup",
+      "parameters": {
+        "sendTo": "backup-email@example.com"
+      },
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "name": "AI Agent",
+      "parameters": {
+        "text": "Analise os dados comerciais e gere insights focados em lucro e precificação."
+      }
+    },
+    {
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "OpenAI"
+        }
+      }
+    }
+  ]
+}
