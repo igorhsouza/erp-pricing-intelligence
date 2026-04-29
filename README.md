@@ -19,6 +19,8 @@ Sistema de auditoria comercial automatizada focado em identificar falhas de prec
 
 O objetivo é transformar relatórios brutos em decisões acionáveis.
 
+<img width="977" height="250" alt="exmp1" src="https://github.com/user-attachments/assets/aed3ed14-9f87-4d07-9fe4-a222b2913d4c" />
+
 ---
 
 ## Capabilities
